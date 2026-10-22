@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+
+# SQLite Database files (generated at runtime)
+data/*.db
+data/*.db-shm
+data/*.db-wal
+trenddigger.db
+*.sqlite
+*.sqlite3
+
+# User-uploaded files (customer payment receipts)
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
